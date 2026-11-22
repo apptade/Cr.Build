@@ -2,4 +2,5 @@
   <Folder Name="/Solution Items/">
     <File Path="Directory.Build.props" />
   </Folder>
+  <Project Path="src/Cr.Build.Common/Cr.Build.Common.csproj" Id="efdce47c-b556-40ee-81a6-abee81d96571" />
 </Solution>
