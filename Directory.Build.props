@@ -1,0 +1,27 @@
+<Project>
+
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <DevelopmentDependency>true</DevelopmentDependency>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Company>apptade</Company>
+    <Authors>apptade</Authors>
+
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+
+    <PackageTags>msbuild;props;build</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+
+    <NuGetPackagePrefix>CrCore</NuGetPackagePrefix>
+    <PackageId>$(NuGetPackagePrefix)$(MSBuildProjectName.Substring(2))</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="build\*" Pack="true" PackagePath="build\" />
+  </ItemGroup>
+
+</Project>
