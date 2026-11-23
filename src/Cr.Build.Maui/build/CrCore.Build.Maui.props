@@ -1,0 +1,8 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <UseMaui>true</UseMaui>
+    <PackageTags>$(PackageTags);maui;windows;android;ios;maccatalyst</PackageTags>
+  </PropertyGroup>
+
+</Project>

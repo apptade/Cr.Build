@@ -3,4 +3,5 @@
     <File Path="Directory.Build.props" />
   </Folder>
   <Project Path="src/Cr.Build.Common/Cr.Build.Common.csproj" Id="efdce47c-b556-40ee-81a6-abee81d96571" />
+  <Project Path="src/Cr.Build.Maui/Cr.Build.Maui.csproj" Id="c442e7e2-012d-45d8-9a8d-bcfd62c92a92" />
 </Solution>
