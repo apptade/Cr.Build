@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Description>CrCore.Build.Common is a base MSBuild configuration package for Cr ecosystem projects.</Description>
+    <Description>$(PackageId) is a base MSBuild configuration package for Cr* projects.</Description>
   </PropertyGroup>
 
 </Project>
