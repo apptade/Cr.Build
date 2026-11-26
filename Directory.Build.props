@@ -23,6 +23,7 @@
   <ItemGroup>
     <None Include="build/*" Pack="true" PackagePath="build/" />
     <None Include="build/*" Pack="true" PackagePath="buildTransitive/" />
+    <None Include="build/*" Pack="true" PackagePath="buildMultiTargeting/" />
   </ItemGroup>
 
 </Project>
