@@ -13,7 +13,7 @@
     <RepositoryType>git</RepositoryType>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
 
-    <PackageTags>msbuild;props;build</PackageTags>
+    <PackageTags>msbuild;props;targets;build;</PackageTags>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 
     <NuGetPackagePrefix>CrCore</NuGetPackagePrefix>
